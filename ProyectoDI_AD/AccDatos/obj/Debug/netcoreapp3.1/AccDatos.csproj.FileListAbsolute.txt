@@ -1,0 +1,139 @@
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.exe
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.deps.json
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.json
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.dev.json
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csprojAssemblyReference.cache
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.cache
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.lref
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.g.resources
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfoInputs.cache
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfo.cs
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CoreCompileInputs.cache
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CopyComplete
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\hopej\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.genruntimeconfig.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.g.cs
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.lref
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.dll
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.pdb
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.exe
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.deps.json
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.json
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.dev.json
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.dll
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.pdb
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.g.resources
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfoInputs.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfo.cs
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CoreCompileInputs.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CopyComplete
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.genruntimeconfig.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\incendio_bosque.jpg
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Estilos.baml
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.baml
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.AssemblyReference.cache
+D:\2º DAM\source\repos\KaIr0sG\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.exe
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\incendio_bosque.jpg
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.deps.json
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.json
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.dev.json
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.AssemblyReference.cache
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Estilos.baml
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.cache
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.lref
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.g.resources
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfoInputs.cache
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfo.cs
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CoreCompileInputs.cache
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CopyComplete
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.exe
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\incendio_bosque.jpg
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.deps.json
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.json
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.dev.json
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Estilos.baml
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.cache
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.lref
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.g.resources
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CopyComplete
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.genruntimeconfig.cache
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.exe
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\incendio_bosque.jpg
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.deps.json
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.json
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.runtimeconfig.dev.json
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.AssemblyReference.cache
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Estilos.baml
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.cache
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_MarkupCompile.lref
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.g.resources
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfoInputs.cache
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.AssemblyInfo.cs
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CoreCompileInputs.cache
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.csproj.CopyComplete
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.dll
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.pdb
+C:\Users\sergi\source\ProyectoDI_AD-master\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos.genruntimeconfig.cache
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Creditos.g.cs
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Creditos.baml
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\agua.gif
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\arbol.png
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\fertil.png
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\fuego.png
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\nofertil.png
+C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_Content.g.cs

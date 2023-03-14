@@ -1,0 +1,43 @@
+﻿<Window x:Class="AccDatos.Creditos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AccDatos"
+        mc:Ignorable="d"
+        Title="Creditos" Height="650" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="creditos.jpg"/> <!--  Poner la foto -->
+        </Grid.Background>
+        
+        <TextBlock x:Name="txt1" Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="223,10,0,0" 
+                 Grid.Row="1" TextWrapping="Wrap" Text="AITOR GORDO ADÁN" VerticalAlignment="Top" Width="340" Background="{x:Null}" 
+                 Foreground="#FFFFE801" FontSize="25" FontFamily="Lucida Calligraphy" />
+        <TextBlock x:Name="txt2" Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="174,111,0,0" 
+            Grid.Row="1" TextWrapping="Wrap" Text="SERGIO BARTOLOMÉ FÉRNANDEZ" VerticalAlignment="Top" Width="509" Background="{x:Null}" 
+            Foreground="#FFFFE801" FontSize="25" FontFamily="Lucida Calligraphy" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="txt3" Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="223,63,0,0" 
+            Grid.Row="1" TextWrapping="Wrap" Text="AITOR PÉREZ MONTALVO" VerticalAlignment="Top" Width="388" Background="{x:Null}" 
+            Foreground="#FFFFE801" FontSize="25" FontFamily="Lucida Calligraphy" Grid.ColumnSpan="2" />
+
+        <Button x:Name="btn_volver" BorderThickness="5" Content="VOLVER " Grid.Column="1" HorizontalAlignment="Left" Margin="10,380,0,0" Grid.Row="1" VerticalAlignment="Top" Width="252" Height="74" FontSize="46" Background="{x:Null}" FontWeight="Bold" Foreground="#FFFFE801" Click="btn_salir_Click" FontFamily="Lucida Calligraphy" RenderTransformOrigin="-0.512,0.622">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FFFFE801" Opacity="100"/>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,140 @@
+﻿<Window x:Class="AccDatos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AccDatos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/incendio_bosque.jpg"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+                    HorizontalAlignment="Center">
+            <TextBlock Text="LA LLAMA ROJA" FontSize="48" FontFamily="Courier New" Foreground="#FFFFE801" Background="#FFA00606" Margin="6"/>
+        </StackPanel>
+
+        <StackPanel x:Name="sp_FormRegistro" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Visibility="Collapsed" Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Nombre:" Style="{StaticResource Caja2}"/>
+            <TextBox x:Name="tb_nombre" Style="{StaticResource Escribir}"/>
+            <TextBlock Text="Apellido:" Style="{StaticResource Caja2}"/>
+            <TextBox x:Name="tb_apellido" Style="{StaticResource Escribir}"/>
+            <TextBlock Text="Mail:" Style="{StaticResource Caja2}"/>
+            <TextBox x:Name="tb_mail" Style="{StaticResource Escribir}"/>
+            <TextBlock Text="Usuario:" Style="{StaticResource Caja2}"/>
+            <TextBox x:Name="tb_usuarioEmpleado" Style="{StaticResource Escribir}"/>
+            <TextBlock Text="Passwd:" Style="{StaticResource Caja2}"/>
+            <PasswordBox x:Name="tb_pass" Style="{StaticResource Contraseña}"/>
+            <TextBlock Text="Confirmar Passwd:" Style="{StaticResource Caja2}"/>
+            <PasswordBox x:Name="tb_passConfirm" Style="{StaticResource Contraseña}"/>
+            <Button Content="Alta Jugador" Click="Button_Click_Alta" Style="{StaticResource Botones}"/>
+        </StackPanel>
+
+        <StackPanel x:Name="sp_LOGIN" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+            <StackPanel Margin="0,60,0,0" Height="100" Width="300" Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Usuario:" Style="{StaticResource Caja}"/>
+                <TextBox x:Name="tb_usuario" Style="{StaticResource Escribir2}"/>
+            </StackPanel>
+            <StackPanel Height="100" Width="300" Orientation="Horizontal">
+                <TextBlock Text="Password:" Style="{StaticResource Caja}"/>
+                <PasswordBox x:Name="pb_pass" Style="{StaticResource Contraseña2}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,60,0,0">
+                <Button x:Name="bt_login" Content="Log In" Style="{StaticResource Botones}" Click="bt_login_Click"/>
+                <Button x:Name="bt_registro" Content="Registrar" Style="{StaticResource Botones}" Click="bt_registro_Click"/>
+                <Button x:Name="bt_usuarioAnonimo" Content="Invitado" Style="{StaticResource Botones}" Click="bt_usuarioAnonimo_Click"/>
+
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel x:Name="sp_Inicio" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+            <Button x:Name="bt_Juego" Content="Juego" BorderThickness="5" Background="#FFA00000" FontWeight="Bold" Foreground="#FFFFE801" Click="bt_Juego_Click" FontFamily="Lucida Calligraphy" Width="240" Height="80" HorizontalAlignment="Left" Margin="30"/>
+            <Button x:Name="bt_Creditos" Content="Creditos" BorderThickness="5" Background="#FFA00000" FontWeight="Bold" Foreground="#FFFFE801" Click="bt_Creditos_Click" FontFamily="Lucida Calligraphy" Width="240" Height="80" HorizontalAlignment="Right"/>
+            <Button x:Name="bt_Ajustes" Content="Ajustes" BorderThickness="5" Background="#FFA00000" FontWeight="Bold" Foreground="#FFFFE801" Click="bt_Ajustes_Click" FontFamily="Lucida Calligraphy" Width="240" Height="80" HorizontalAlignment="Left" Margin="30"/>
+            <Button x:Name="bt_Salir" Content="Salir" BorderThickness="5" Background="#FFA00000" FontWeight="Bold" Foreground="#FFFFE801" Click="bt_Salir_Click" FontFamily="Lucida Calligraphy" Width="240" Height="80" HorizontalAlignment="Right" Margin="30"/>
+        </StackPanel>
+
+
+        <StackPanel x:Name="sp_Creditos" HorizontalAlignment="Center" Visibility="Collapsed" Grid.Row="1" Grid.Column="1">
+            <TextBlock Height="48" HorizontalAlignment="Center" TextWrapping="Wrap" Text="AITOR GORDO ADÁN" Width="340" Margin="40"
+                         Foreground="#FFA00606" FontSize="25" FontFamily="Lucida Calligraphy"
+                     />
+            <TextBlock Grid.Row="1" HorizontalAlignment="Center" Height="48" TextWrapping="Wrap" Text="AITOR PÉREZ MONTALVO" VerticalAlignment="Top" Width="388" Margin="40"
+                       Foreground="#FFA00606" FontSize="25" FontFamily="Lucida Calligraphy"
+                       />
+            <TextBlock Grid.Row="1" TextWrapping="Wrap" HorizontalAlignment="Center" Height="48" Text="SERGIO BARTOLOMÉ FERNÁNDEZ" Width="510" Margin="40"
+                       Foreground="#FFA00606" FontSize="25" FontFamily="Lucida Calligraphy"
+                       />
+        </StackPanel>
+
+        <StackPanel x:Name="sp_PreparacionSimulacion" Visibility="Visible" Grid.Row="1" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="600" Height="145">
+                <StackPanel HorizontalAlignment="Right" Margin="350,0,-110,0">
+                    <TextBlock Text="Filas:" Style="{StaticResource Caja3}" />
+                    <TextBox x:Name="tb_filas" Style="{StaticResource Escribir}" Margin="0,0,5,5"/>
+                    <TextBlock Text="Columnas:" Style="{StaticResource Caja3}"/>
+                    <TextBox x:Name="tb_columnas" Style="{StaticResource Escribir}"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Stretch" Width="80" Margin="150,0,60,0" Orientation="Vertical" VerticalAlignment="Stretch">
+                    <TextBlock Text="P:" Style="{StaticResource Caja3}"/>
+                    <TextBox x:Name="tb_P" Style="{StaticResource Escribir}" Margin="5,0,5,5"/>
+                    <TextBlock Text="Q:" Style="{StaticResource Caja3}"/>
+                    <TextBox x:Name="tb_Q" Style="{StaticResource Escribir}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="5,0,5,5"/>
+                </StackPanel>
+            </StackPanel>
+            <Button Content="Iniciar Tablero" HorizontalAlignment="Right" Click="bt_iniciarTablero_Click" Style="{StaticResource Botones}"/>
+            <Button Content="Avanzar 1" HorizontalAlignment="Right" Click="Avanzar1_Click" Style="{StaticResource Botones}" VerticalAlignment="Stretch"/>
+        </StackPanel>
+
+        <StackPanel x:Name="sp_Tablero" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Row="0" Grid.Column="0" Source="./img/fertil.png"/>
+                <Image Grid.Row="0" Grid.Column="1" Source="./img/fertil.png"/>
+                <Image Grid.Row="1" Grid.Column="0" Source="./img/fertil.png"/>
+                <Image Grid.Row="1" Grid.Column="1" Source="./img/fertil.png"/>
+            </Grid>
+        </StackPanel>
+
+
+        <StackPanel x:Name="sp_Ajustes"  Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+            <!-- Aqui Falta lo del slider de la musica  -->
+            <ComboBox x:Name="Resolucion" MinWidth="40" MaxWidth="240" Width="260" Height="60" FontSize="24" Margin="150" HorizontalAlignment="Right"
+          SelectedIndex="0"
+          SelectionChanged="Resolucion_SelectionChanged">
+                <ComboBoxItem Content="1920x1080"/>
+                <ComboBoxItem Content="1280x720"/>
+                <ComboBoxItem Content="800x600"/>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel x:Name="sp_Atras" Grid.Row="2" Grid.Column="1" Grid.RowSpan="3">
+            <Button x:Name="btn_atras" BorderThickness="5" Content="VOLVER" VerticalAlignment="Top" Width="210" Height="60" FontSize="32" 
+                    Background="{x:Null}" FontWeight="Bold" Foreground="#FFFFE801" Click="btn_atras_Click" FontFamily="Lucida Calligraphy" Margin="10,10,0,0" >
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="#FFFFE801" Opacity="100"/>
+                </Button.BorderBrush>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
