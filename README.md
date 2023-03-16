@@ -1,1 +1,7 @@
-# C-XAML
+- LOGIN.
+- REGISTRO
+- VERIFIQUE QUE YA EXISTE LOS DATOS
+- AJUSTES DE VOLUMEN
+- SONIDO POR USUARIO
+
+Esto es lo que nos ha pedido para aprobar
