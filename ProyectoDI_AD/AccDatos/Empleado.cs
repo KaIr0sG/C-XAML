@@ -11,7 +11,7 @@ namespace AccDatos
         string _usuario;
         string _nombre;
         string _apellido;
-        string _mail;
+        string _email;
         //Propiedades publicas
         public int IdUsuario
         {
@@ -60,25 +60,25 @@ namespace AccDatos
             }
         }
 
-        public string mail
+        public string email
         {
             get
             {
-                return _mail;
+                return _email;
             }
             set
             {
-                _mail = mail;
+                _email = email;
             }
         }
         //Constructor(es)
-        public Empleado(int idEmpleado, string usuario, int idTienda)
+        public Empleado(int idUsuario, string usuario, string nombre, string apellido, string email)
         {
             _idUsuario = IdUsuario;
             _usuario = usuario;
             _nombre = nombre;
             _apellido = apellido;
-            _mail = mail;
+            _email = email;
         }
 
         //Metodos

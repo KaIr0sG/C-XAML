@@ -17,7 +17,7 @@
             <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.3*"/>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
@@ -43,7 +43,7 @@
             <Button Content="Alta Jugador" Click="Button_Click_Alta" Style="{StaticResource Botones}"/>
         </StackPanel>
 
-        <StackPanel x:Name="sp_LOGIN" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+        <StackPanel x:Name="sp_LOGIN" Grid.Row="1" Grid.Column="1" Visibility="Visible">
             <StackPanel Margin="0,60,0,0" Height="100" Width="300" Orientation="Horizontal" HorizontalAlignment="Center">
                 <TextBlock Text="Usuario:" Style="{StaticResource Caja}"/>
                 <TextBox x:Name="tb_usuario" Style="{StaticResource Escribir2}"/>
@@ -81,19 +81,19 @@
                        />
         </StackPanel>
 
-        <StackPanel x:Name="sp_PreparacionSimulacion" Visibility="Visible" Grid.Row="1" Grid.Column="1">
-            <StackPanel Orientation="Horizontal" Width="600" Height="145">
-                <StackPanel HorizontalAlignment="Right" Margin="350,0,-110,0">
+        <StackPanel x:Name="sp_PreparacionSimulacion" Visibility="Collapsed" Grid.Row="1" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="600" Height="145" Margin="0,0,-30,0">
+                <StackPanel HorizontalAlignment="Right" Margin="420,0,-90,0">
                     <TextBlock Text="Filas:" Style="{StaticResource Caja3}" />
                     <TextBox x:Name="tb_filas" Style="{StaticResource Escribir}" Margin="0,0,5,5"/>
                     <TextBlock Text="Columnas:" Style="{StaticResource Caja3}"/>
                     <TextBox x:Name="tb_columnas" Style="{StaticResource Escribir}"/>
                 </StackPanel>
-                <StackPanel HorizontalAlignment="Stretch" Width="80" Margin="150,0,60,0" Orientation="Vertical" VerticalAlignment="Stretch">
+                <StackPanel HorizontalAlignment="Left" Width="80" Margin="120,0,10,0" Orientation="Vertical" VerticalAlignment="Stretch">
                     <TextBlock Text="P:" Style="{StaticResource Caja3}"/>
                     <TextBox x:Name="tb_P" Style="{StaticResource Escribir}" Margin="5,0,5,5"/>
                     <TextBlock Text="Q:" Style="{StaticResource Caja3}"/>
-                    <TextBox x:Name="tb_Q" Style="{StaticResource Escribir}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="5,0,5,5"/>
+                    <TextBox x:Name="tb_Q" Style="{StaticResource Escribir}" HorizontalAlignment="Right" Margin="5,0,5,5" Width="70"/>
                 </StackPanel>
             </StackPanel>
             <Button Content="Iniciar Tablero" HorizontalAlignment="Right" Click="bt_iniciarTablero_Click" Style="{StaticResource Botones}"/>
@@ -103,12 +103,12 @@
         <StackPanel x:Name="sp_Tablero" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition Height="0.3*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
                 </Grid.ColumnDefinitions>
                 <Image Grid.Row="0" Grid.Column="0" Source="./img/fertil.png"/>
                 <Image Grid.Row="0" Grid.Column="1" Source="./img/fertil.png"/>
@@ -127,6 +127,12 @@
                 <ComboBoxItem Content="1280x720"/>
                 <ComboBoxItem Content="800x600"/>
             </ComboBox>
+            <StackPanel Background="Transparent" Grid.Column="1" Panel.ZIndex="10" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="center" Height="56" Margin="120,-70,120,200" Width="660">
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="14" Text="Volumen principal:" Grid.Row="2" />
+                <MediaElement Name="mediaPlayer" Source="sonidomenu.mp3" LoadedBehavior="Manual" UnloadedBehavior="Stop"/>
+                <Slider Name="volumeSlider" Minimum="0" Maximum="100" Value="50" Width="650" Height="40" Margin="10,0,0,0" VerticalAlignment="Bottom"/>
+                <!--ValueChanged="volumeSlider_ValueChanged"-->
+            </StackPanel>
         </StackPanel>
         <StackPanel x:Name="sp_Atras" Grid.Row="2" Grid.Column="1" Grid.RowSpan="3">
             <Button x:Name="btn_atras" BorderThickness="5" Content="VOLVER" VerticalAlignment="Top" Width="210" Height="60" FontSize="32" 

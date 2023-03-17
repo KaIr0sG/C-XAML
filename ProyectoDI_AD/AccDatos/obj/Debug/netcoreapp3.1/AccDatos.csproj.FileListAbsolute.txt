@@ -137,3 +137,11 @@ C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\
 C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\fuego.png
 C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\nofertil.png
 C:\Users\admin-dam2a\Desktop\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_Content.g.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Creditos.g.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\AccDatos_Content.g.cs
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\agua.gif
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\arbol.png
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\fertil.png
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\fuego.png
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\bin\Debug\netcoreapp3.1\img\nofertil.png
+C:\Users\sergi\OneDrive\Escritorio\ProyectoDI_AD\AccDatos\obj\Debug\netcoreapp3.1\Creditos.baml

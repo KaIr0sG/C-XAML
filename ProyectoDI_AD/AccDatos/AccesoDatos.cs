@@ -14,9 +14,9 @@ namespace AccDatos
         MySqlCommand commandDatabase;
         string connectionString = "Server=127.0.0.1;" +
                                 "Port=3306;" +
-                                "Database=sakila;" +
-                                "Uid=usuarioNormal;" +
-                                "Pwd=1234;";
+                                "Database=juego_vida;" +
+                                "User=root;" +
+                                "Pwd=1234";
 
         public AccesoDatos()
         {
@@ -30,17 +30,17 @@ namespace AccDatos
         {
             conn.Close();
         }
-        public ObservableCollection<string> Q_ReadActors()
+        public ObservableCollection<string> Q_ReadUsers()
         {
             try
             {
                 EstablecerConexion();
-                string query = "SELECT * FROM actor;";
+                string query = "SELECT * FROM Jugadores;";
                 commandDatabase = new MySqlCommand(query, conn);
 
                 MySqlDataReader reader;
                 commandDatabase.CommandTimeout = 60;
-                ObservableCollection<string> nombres_actores = new ObservableCollection<string>();
+                ObservableCollection<string> Jugadores = new ObservableCollection<string>();
 
 
                 reader = commandDatabase.ExecuteReader();
@@ -49,7 +49,7 @@ namespace AccDatos
                     while (reader.Read())
                     {
                         // Hacer algo con cada fila obtenida
-                        nombres_actores.Add(reader.GetString(1));
+                        Jugadores.Add(reader.GetString(1));
                     }
                 }
                 else
@@ -58,7 +58,7 @@ namespace AccDatos
                 }
                 // Cerrar la conexión
                 CerrarConexion();
-                return nombres_actores;
+                return Jugadores;
             }
             catch (MySqlException ex)
             {
@@ -77,39 +77,37 @@ namespace AccDatos
 
         }
 
+        //public void SP_UpdateActor(int id_actor, string nuevoApellido)
+        //{
+        //    try
+        //    {
+        //        EstablecerConexion();
 
+        //        //Preparar la llamada al Procedimiento Almacenado
+        //        commandDatabase = new MySqlCommand("CambiarApellidoActor", conn);
+        //        commandDatabase.CommandType = CommandType.StoredProcedure;
+        //        commandDatabase.Parameters.AddWithValue("_nuevoApellido", nuevoApellido);
+        //        commandDatabase.Parameters.AddWithValue("_id_actor", id_actor);
 
-        public void SP_UpdateActor(int id_actor, string nuevoApellido)
-        {
-            try
-            {
-                EstablecerConexion();
+        //        //Lanzar un Procedimiento Almacenado
+        //        commandDatabase.ExecuteNonQuery();
 
-                //Preparar la llamada al Procedimiento Almacenado
-                commandDatabase = new MySqlCommand("CambiarApellidoActor", conn);
-                commandDatabase.CommandType = CommandType.StoredProcedure;
-                commandDatabase.Parameters.AddWithValue("_nuevoApellido", nuevoApellido);
-                commandDatabase.Parameters.AddWithValue("_id_actor", id_actor);
+        //        CerrarConexion();
 
-                //Lanzar un Procedimiento Almacenado
-                commandDatabase.ExecuteNonQuery();
-
-                CerrarConexion();
-
-            }
-            catch (MySqlException ex)
-            {
-                // Mostrar excepción tipo MySQL
-                MessageBox.Show(ex.Message);
-                CerrarConexion();
-            }
-            catch (Exception ex)
-            {
-                // Mostrar cualquier excepción
-                MessageBox.Show(ex.Message);
-                CerrarConexion();
-            }
-        }
+        //    }
+        //    catch (MySqlException ex)
+        //    {
+        //        // Mostrar excepción tipo MySQL
+        //        MessageBox.Show(ex.Message);
+        //        CerrarConexion();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Mostrar cualquier excepción
+        //        MessageBox.Show(ex.Message);
+        //        CerrarConexion();
+        //    }
+        //}
 
         public DataSet SP_StaffDetail(int id_user)
         {
@@ -148,22 +146,22 @@ namespace AccDatos
                 CerrarConexion();
                 return null;
             }
-
-
         }
 
-        public int SP_AddUser(string nombre, string apellido, string mail, string usuario, string pass)
+        public int SP_AddUser(string nombre, string apellido, string email, string usuario, string pass)
         {
             try
             {
                 EstablecerConexion();
 
                 //Preparar la llamada al Procedimiento Almacenado
-                commandDatabase = new MySqlCommand("AltaUsuario_v2", conn);
-                commandDatabase.CommandType = CommandType.StoredProcedure;
+                commandDatabase = new MySqlCommand("AltaUsuario_v2", conn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 commandDatabase.Parameters.AddWithValue("@_nombre", nombre);
                 commandDatabase.Parameters.AddWithValue("@_apellido", apellido);
-                commandDatabase.Parameters.AddWithValue("@_email", mail);
+                commandDatabase.Parameters.AddWithValue("@_email", email);
                 commandDatabase.Parameters.AddWithValue("@_usuario", usuario);
                 commandDatabase.Parameters.AddWithValue("@_password", pass);
 
@@ -201,8 +199,10 @@ namespace AccDatos
                 EstablecerConexion();
 
                 //Preparar la llamada al Procedimiento Almacenado
-                commandDatabase = new MySqlCommand("LoginUsuario", conn);
-                commandDatabase.CommandType = CommandType.StoredProcedure;
+                commandDatabase = new MySqlCommand("LoginUsuario", conn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 commandDatabase.Parameters.AddWithValue("@_usuario", usuario);
                 commandDatabase.Parameters.AddWithValue("@_password", pass);
 
@@ -227,12 +227,13 @@ namespace AccDatos
             }
             catch (Exception ex)
             {
-                // Mostrar cualquier excepción
-                MessageBox.Show(ex.Message);
-                CerrarConexion();
-                return -98;
+                {
+                    // Mostrar cualquier excepción
+                    MessageBox.Show(ex.Message);
+                    CerrarConexion();
+                    return -98;
+                }
             }
         }
-
     }
 }

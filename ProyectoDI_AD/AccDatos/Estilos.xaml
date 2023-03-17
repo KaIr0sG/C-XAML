@@ -6,49 +6,49 @@
         <Setter Property="FontFamily" Value="Bernard MT Condensed"/>
         <Setter Property="Margin" Value="7"/>
         <Setter Property="Padding" Value="1"/>
-        <Setter Property="Background" Value="Yellow"/>
+        <Setter Property="Background" Value="Transparent"/>
         <!--Property="Opacity"-->
-        <Setter Property="Foreground" Value="Red"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
     </Style>
     <Style x:Key="Caja" TargetType="TextBlock">
         <Setter Property="FontSize" Value="30"/>
         <Setter Property="FontFamily" Value="Bernard MT Condensed"/>
         <Setter Property="Height" Value="40"/>
         <Setter Property="Width" Value="144"/>
-        <Setter Property="Foreground" Value="Red"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
     </Style>
     <Style x:Key="Caja2" TargetType="TextBlock">
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontFamily" Value="Bernard MT Condensed"/>
-        <Setter Property="Foreground" Value="Red"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
         <Setter Property="Margin" Value="0,0,0,10"/>
     </Style>
     <Style x:Key="Caja3" TargetType="TextBlock">
         <Setter Property="FontSize" Value="15"/>
         <Setter Property="FontFamily" Value="Bernard MT Condensed"/>
-        <Setter Property="Foreground" Value="Red"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
         <Setter Property="Margin" Value="10,20,0,0"/>
     </Style>
     <Style x:Key="Escribir" TargetType="TextBox">
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Foreground" Value="Red"/>
-        <Setter Property="Background" Value="Yellow"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
+        <Setter Property="Background" Value="Transparent"/>
     </Style>
     <Style x:Key="Escribir2" TargetType="TextBox">
         <Setter Property="FontSize" Value="24"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="Height" Value="40"/>
         <Setter Property="Width" Value="147"/>
     </Style>
     <Style x:Key="Contraseña" TargetType="PasswordBox">
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
         <Setter Property="Background" Value="Transparent"/>
     </Style>
     <Style x:Key="Contraseña2" TargetType="PasswordBox">
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Foreground" Value="LightCyan"/>
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="Height" Value="40"/>
         <Setter Property="Width" Value="147"/>

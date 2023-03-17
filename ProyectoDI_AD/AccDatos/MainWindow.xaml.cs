@@ -28,9 +28,13 @@ namespace AccDatos
         {
             InitializeComponent();
             manager = new DummyManager();
+            MediaPlayer mediaPlayerboton = new MediaPlayer();
 
             DataContext = manager;
             //Las funciones para los void
+
+            mediaPlayerboton.Open(new Uri("D:/2º DAM/source/repos/KaIr0sG/ProyectoDI_AD - copia/AccDatos/stranger.mp3", UriKind.Relative));
+            mediaPlayerboton.Play();
 
             OcultarTodo();
             MostrarLogIn();
@@ -68,22 +72,19 @@ namespace AccDatos
 
         private void Button_Click_Datos(object sender, RoutedEventArgs e)
         {
-            manager.VerDatosEmpleado(1);
+            manager.VerDatosUsuario(1);
         }
         // Nos confirma si el usuario se ha dado de alta o no
         private void Button_Click_Alta(object sender, RoutedEventArgs e)
         {
             if (tb_pass.Password == tb_passConfirm.Password)
             {
-
-
+                DummyManager manager = new DummyManager();
                 manager.AltaUsuario(tb_nombre.Text,
                                      tb_apellido.Text,
                                      tb_mail.Text,
-                                     //int.Parse(tb_tiendaEmpleado.Text),
                                      tb_usuario.Text,
                                      tb_pass.Password
-
                                      );
             }
             else
@@ -159,6 +160,9 @@ namespace AccDatos
             Aparecer(sp_PreparacionSimulacion);
             Desparecer(sp_LOGIN);
             sp_PreparacionSimulacion.Visibility = Visibility.Visible;
+            sp_Atras.Visibility = Visibility.Visible;
+            Aparecer(sp_Atras);
+            
         }
         // Al iniciar el tablero nos dara el tablero que indicamos 
         private void bt_iniciarTablero_Click(object sender, RoutedEventArgs e)
@@ -307,7 +311,7 @@ namespace AccDatos
                 Storyboard.SetTargetProperty(animacion, new PropertyPath(StackPanel.OpacityProperty));
                 // Empieza la animacion
                 myStoryboard.Begin(this); // No lo hace cuando estoy encima, lo hace al ejecutarse
-                Thread.Sleep(3000);
+                Thread.Sleep(1000);
                 target.Visibility = Visibility.Collapsed;
             }
         }
@@ -339,5 +343,12 @@ namespace AccDatos
             btn_atras.Visibility = Visibility.Collapsed;
         }
 
+        private void volumeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            mediaPlayer.Volume = volumeSlider.Value / 100;
+            //descomentar para que funcione la musica del menu
+            mediaPlayer.Play();
+
+        }
     }
 }

@@ -85,7 +85,7 @@ namespace AccDatos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AccDatos;V1.0.0.0;component/creditos.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AccDatos;component/creditos.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Creditos.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

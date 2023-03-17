@@ -112,16 +112,16 @@ namespace AccDatos
                 MessageBox.Show("Error desconocido");
             }
         }
-        public Empleado VerDatosEmpleado(int idEmpleado)
+        public Empleado VerDatosUsuario(int idEmpleado)
         {
             aData.SP_StaffDetail(idEmpleado); // Ver esto
 
             return null;
         }
 
-        public void AltaUsuario(string nombre, string apellido, string mail, string usuario, string pass)
+        public void AltaUsuario(string nombre, string apellido, string email, string usuario, string pass)
         {
-            if (aData.SP_AddUser(nombre, apellido, mail, usuario, Md5(pass)) == 0)
+            if (aData.SP_AddUser(nombre, apellido, email, usuario, Md5(pass)) == 0)
             {
                 MessageBox.Show("El usuario ha sido dado de alta CORRECTAMENTE");
             }
